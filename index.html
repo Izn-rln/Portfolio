@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="bgimg"></div><canvas id="bg"></canvas><div class="vig"></div>
+<header><div class="bar"><div class="logo" id="logo"></div><nav id="nav"></nav><div class="lvl">LV <b id="lv">1</b></div></div><div class="xp" id="xp"></div></header>
+<main id="app"></main>
+<footer>Press <kbd>1</kbd>–<kbd>6</kbd> to jump between sections · <kbd>Esc</kbd> closes windows<br>© <span id="yr"></span> <span id="fn"></span></footer>
+<div class="modal" id="modal"><div class="panel" id="mbody"></div></div>
+<div class="toast" id="toast"></div>
+<button id="mus" title="Play / pause music" aria-label="Toggle music">♪</button>
+<div class="dock" id="dock" style="display:none"><span id="sv"></span><button class="btn alt" id="gs" style="display:none">⚙ Background, music &amp; more</button><button class="btn" id="eb">✎ Edit portfolio</button></div>
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
